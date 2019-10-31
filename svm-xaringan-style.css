@@ -121,3 +121,9 @@ div.remark-slide-container .fullscale p {
 
 }
 
+remark.macros.scale = function (percentage) {
+  var url = this;
+  return '<img src="' + url + '" style="width: ' + percentage + '" />';
+};
+
+

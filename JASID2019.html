@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
-    <title>Regional Disparities, Aggregation Effects and the Role of Space</title>
+    <title>Regional Convergence, Spatial Scale, and Spatial Dependence:</title>
     <meta charset="utf-8" />
     <meta name="author" content="Felipe Santos  M1 research student Graduate School of International Development Nagoya University, JAPAN     Prof. Carlos Mendez   Graduate School of International Development Nagoya University, JAPAN" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
@@ -12,10 +12,10 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Regional Disparities, Aggregation Effects and the Role of Space
-## Evidence from Homicide Rates in Colombia 2010-2018
+# Regional Convergence, Spatial Scale, and Spatial Dependence:
+## Evidence from Homicides and Personal Injuries in Colombia 2010-2018
 ### Felipe Santos <br />M1 research student<br />Graduate School of International Development<br />Nagoya University, JAPAN <br /> <br /> Prof. Carlos Mendez <br /> Graduate School of International Development<br />Nagoya University, JAPAN <br />
-### July 24th 2019
+### ARSC, Saga University, Nov 23rd 2019
 
 ---
 
@@ -28,13 +28,16 @@ class: center, middle, inverse, title-slide
 - Beyond GDP, social variables and their convergence are relevant for development studies (Royuela et al 2015)
 
 - Persistent income differences, differences in health indicators and in "general" regional inequality in Colombia. 
+
 - Scarce academic literature on inequality (convergence approach) at the municipality level. 
   
 ## Research Objective:
   
-- Study convergence/divergence of homicide rates across municipalities and departments in Colombia 2010-2018 
+- Study convergence/divergence of homicide rates and personal injury across municipalities and departments in Colombia 2010-2018 
 
-- Analyze spatial autocorrelation and its robustness at different disaggregate levels 
+- Analyze spatial autocorrelation and its robustness at different disaggregate levels
+
+-Discuss policy implications of findings
 
   
 ## Methods:
@@ -52,14 +55,16 @@ class: middle
 
 # Main Results:
 
-1. **Sigma Convergence** for homicide rates at the state level, **Beta Convergence** at the municipality level
+1. **Sigma Convergence** for both rates at the state level, **Beta Convergence** for both levels and rates.
 
 2. Regional disaggretation  matters: **Local convergence clusters** 
 
 3. **Clustering dynamics** 
 
-  - State level: 4+? convergence clusters
-  - Municipality level: 2+? convergence clusters
+  - NMR State level: 4+? convergence clusters
+  - NMR Municipal level: 2+? convergence clusters
+  -NPIR State level: 2 convergence clubs
+  -NPIR Municipal level: divergence and 2 convergence clubs
 
 4. **Spatial Autocorrelation** robust only  at the municipality level
   
@@ -82,11 +87,15 @@ class: middle
   - Distribution dynamics framework
   - Distributional convergence
 
-4. **Local convergence clusters**
-
-5. **Global spatial autocorrelation:**
+4. **Global spatial autocorrelation:**
 
   - Disaggreagation effects
+  
+5. **Policy discussion**
+
+  - Colombian National Development Plan
+  
+  - RCT and spatial autocorrelation
   
 5. **Concluding Remarks**
   
@@ -96,7 +105,7 @@ class: middle
 
 # Data:
 
-- Total number of homicides in Colombia per year from 2010 until 2018 (data taken from the National police).
+- Total number of homicides and personal injuries  in Colombia per year from 2010 until 2018 (data taken from the National police).
 
 - Data is agreggated at the municipality  and departament level.
 
@@ -142,6 +151,13 @@ class: middle, center
 
 ---
 
+class: middle, center
+
+## Beta and sigma convergence  summary
+
+![](figs/betasum.png)
+
+---
 class: center, middle
 
 # (3) **State and Municipality disaggregation:** 
@@ -190,25 +206,36 @@ Those lines are not regression trends!
 
 ---
 class: middle, center
+##NMR at both levels
 
-# State level: 4+? convergence clusters
-
-![](figs/depdyn.png)
-
- Multimodal distribution with sigma convergence 
-
----
-class: middle, center
-
-# Municipality level: 2+? convergence clusters
+ State level: 4+? convergence clusters
+ 
+ &lt;img src="figs/depdyn.png" style="width: 70%" /&gt;
 
 
-![](figs/mundyn.png)
+Municipality level: 2+? convergence clusters
+
+&lt;img src="figs/mundyn.png" style="width: 70%" /&gt;
 
 Interesting results; there are fewer clusters but sigma convergence is not present.
 
 ---
+class: middle, center
 
+##NPIR at both levels
+
+ State level: 2 convergence clusters
+ 
+ &lt;img src="figs/depdyn2.png" style="width: 70%" /&gt;
+
+
+Municipality level: 2 convergence clusters and divergence
+
+&lt;img src="figs/mundyn2.png" style="width: 70%" /&gt;
+
+Interesting results; there are fewer clusters but sigma convergence is not present.
+
+---
 class: middle
 
 # (4) Spatial Autocorrelation (moran I definition)
@@ -239,9 +266,12 @@ class: middle, center
 
 # (4) Spatial autocorrelation 
 
-**State level**: Moran's I statistic significant from 2012, differntial Moran's I is not significan (**not robust**)
+1. **State level**: Moran's I statistic significant, differntial Moran's I is not significant (**not robust**)
 
-**Municipality level**: Differential Moran's I significant from 2010 (**robust**)
+2. **Municipality level**: Differential Moran's I significant  (**robust**)
+
+&lt;img src="figs/moranall.png" style="width: 200%" /&gt;
+
 
 ---
 
@@ -264,6 +294,35 @@ class: middle, center
 - Subsequent Differential Moran's I `\(sur_{t}-sur_{t-1}\)` **statistically significant at the municipality level**. Except 2014-2013 (not statistically significant) see graphs
 
 ![](figs/moranmu2.png)
+
+---
+
+class: middle, center
+
+#(4) Policy discussion 
+
+vertical and horizontal policy coordiantion:
+
+It could be more appropriate for the formulation of national development plans to have convergence targets at the state level as well as the municipal level
+
+ &lt;img src="figs/pol3.png" style="width: 200%" /&gt;
+
+
+---
+
+#(4) Policy discussion 
+
+##The need for a spatial perspective in current cash transfer programs:
+	
+-  Spatial regressions could be used to test determinant hypothesis  
+ 
+- Moreover, such research could contribute to the literature by suggesting a case for spatially focused CCTs. 
+ 
+- Ultimately, this type of analysis could serve a as tool for combating organized crime in specific locations 
+
+ &lt;img src="figs/rct.png" style="width: 80%" /&gt;
+ 
+ Camacho, A., &amp; Mejía, D. (2013). Las externalidades de los programas de transferencias condicionadas sobre el crimen: El caso de Familias en Acción en Bogotá (No. IDB-WP-406). IDB Working Paper Series
 
 ---
 
@@ -307,16 +366,23 @@ class: center, middle
 
 # Thank you very much for your attention
 
-If you are interested in our research, please check Prof. Carlos Mendez website 
+If you are interested in our research,
+you can check my webisite where you can find this presentation https://felipe-santos.rbind.io
+please check Prof. Carlos Mendez website 
 https://carlos-mendez.rbind.io
 
-And the research semminar's website 
-https://carlos-seminar.rbind.io/
+And our QuaRCS lab website 
+https://quarcs-lab.rbind.io/
+
+ &lt;img src="figs/logo2.png" style="width: 20%" /&gt;
+
+
+
 
 
 ***
 
-Stay tuned for my Felipe's Master's thesis 
+Stay tuned for my Master's thesis 
 ##Will the SGDs be Achieved in Colombia? A Study of National Convergence and Regional differences.
 
 Gender inequality, Income, Eduacation, Crime... Classical convergence, Distributional Dynamics, Spatial Filtering, Spatial econometrics, long-run Filtering...
