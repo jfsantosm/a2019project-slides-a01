@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Regional Disparities, Aggregation Effects and the Role of Space</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Felipe Santos  M1 research student Graduate School of International Development Nagoya University, JAPAN     Prof. Carlos Mendez   Graduate School of International Development Nagoya University, JAPAN" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="svm-xaringan-style.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Regional Disparities, Aggregation Effects and the Role of Space
+## Evidence from Homicide Rates in Colombia 2010-2018
+### Felipe Santos <br />M1 research student<br />Graduate School of International Development<br />Nagoya University, JAPAN <br /> <br /> Prof. Carlos Mendez <br /> Graduate School of International Development<br />Nagoya University, JAPAN <br />
+### July 24th 2019
+
+---
